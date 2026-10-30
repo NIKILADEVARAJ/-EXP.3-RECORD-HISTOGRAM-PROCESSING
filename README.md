@@ -25,35 +25,46 @@ The program performs the following operations:
 
 ## ALGORITHM
 
-**Step 1:** Import the required libraries: OpenCV, NumPy, and Matplotlib.
+## Step 1:
+Import the required libraries: OpenCV, NumPy, and Matplotlib.
 
-**Step 2:** Read the image `parrot.jpg` in grayscale format.
+## Step 2:
+Read the image `parrot.jpg` in grayscale format.
 
-**Step 3:** Display the grayscale image and plot its histogram.
+## Step 3:
+Display the grayscale image and plot its histogram.
 
-**Step 4:** Apply histogram equalization using `cv2.equalizeHist()` to enhance contrast.
+## Step 4: 
+Apply histogram equalization using `cv2.equalizeHist()` to enhance contrast.
 
-**Step 5:** Display the original grayscale image, its histogram, enhanced image, and enhanced histogram using a 2 × 2 grid.
+## Step 5:
+Display the original grayscale image, its histogram, enhanced image, and enhanced histogram using a 2 × 2 grid.
 
-**Step 6:** Read the same image in color format.
+## Step 6: 
+Read the same image in color format.
 
-**Step 7:** Split the image into B, G, R channels and plot their histograms.
+## Step 7:
+Split the image into B, G, R channels and plot their histograms.
 
-**Step 8:** Convert the image from BGR to HSV color space.
+## Step 8: 
+Convert the image from BGR to HSV color space.
 
-**Step 9:** Apply histogram equalization on the V (Value) channel.
+## Step 9:
+Apply histogram equalization on the V (Value) channel.
 
-**Step 10:** Merge the channels and convert the image back to BGR format.
+## Step 10: 
+Merge the channels and convert the image back to BGR format.
 
-**Step 11:** Display the original color image, histogram, enhanced image, and enhanced histogram using a 2 × 2 grid.
+## Step 11:
+Display the original color image, histogram, enhanced image, and enhanced histogram using a 2 × 2 grid.
 
 ---
 
 ## PROGRAM
 
 ### Developed By
-- **Name:** NIKILA D
-- **Register No:** 212224230187
+## Name: NIKILA D
+## Register No: 212224230187
 
 ## 1. Import the Required Libraries and Read the Grayscale Image
 
@@ -70,6 +81,9 @@ plt.axis('off')
 plt.show()
 ```
 
+## OUTPUT:
+<img width="517" height="607" alt="image" src="https://github.com/user-attachments/assets/14189c8a-b21d-4677-be13-707b4eee6cb9" />
+
 ## 2. Plot the Histogram of the Grayscale Image
 
 ```python
@@ -79,6 +93,8 @@ plt.xlabel('Pixel Intensity')
 plt.ylabel('Frequency')
 plt.show()
 ```
+## OUTPUT:
+<img width="851" height="597" alt="image" src="https://github.com/user-attachments/assets/d508e92b-c536-4b54-88b6-52d6321bf3b4" />
 
 ## 3. Apply Histogram Equalization
 
@@ -96,6 +112,9 @@ plt.ylabel('Frequency')
 plt.show()
 ```
 
+## OUTPUT:
+<img width="1027" height="615" alt="image" src="https://github.com/user-attachments/assets/f6a5d693-8b78-4f89-b7d9-aed9ee05f7a4" />
+
 ## 5. Display the Equalized Grayscale Image
 
 ```python
@@ -104,6 +123,9 @@ plt.title('Equalized Image')
 plt.axis('off')
 plt.show()
 ```
+
+## OUTPUT:
+<img width="486" height="605" alt="image" src="https://github.com/user-attachments/assets/8fe0905c-943b-444a-b7e8-b9a6291d28fa" />
 
 ## 6. Read the Image in Color Mode and Convert to HSV
 
@@ -143,6 +165,11 @@ plt.axis('off')
 plt.show()
 ```
 
+## OUTPUT:
+<img width="502" height="555" alt="image" src="https://github.com/user-attachments/assets/2e36e4de-5b5b-4196-b726-a7977d8509f5" />
+<img width="468" height="535" alt="image" src="https://github.com/user-attachments/assets/d84dfde9-720a-4ac0-bf3d-c556e6a95dbb" />
+
+
 ## 10. Display the Original and Equalized Images Along with Their Histograms
 
 ```python
@@ -168,6 +195,8 @@ plt.title('Histogram Equalized')
 
 plt.show()
 ```
+## OUTPUT:
+<img width="1518" height="467" alt="image" src="https://github.com/user-attachments/assets/d56cce13-fa55-4119-98ad-a52d97c56097" />
 
 ## RESULT
 
